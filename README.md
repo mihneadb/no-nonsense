@@ -5,7 +5,7 @@ Fully featured, content-focused Ghost theme
 
 # Features
 
-> This is a work in progress. Check the issues for status.
+> This is a work in progress. Check tickboxes for status.
 
 - [ ] disqus support
 - [ ] responsive
