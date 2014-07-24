@@ -1,0 +1,16 @@
+<nav class="main-nav text-right">
+<!--Home link -- two conditions because hbs doesn't have ||-->
+    {{#if post}}
+        <a class="" href="{{@blog.url}}/">Home</a>
+    {{/if}}
+    {{#if tag}}
+            <a class="" href="{{@blog.url}}/">Home</a>
+    {{/if}}
+
+<!--RSS -->
+    {{#if tag}}
+        <a href="{{@blog.url}}/tag/{{tag.slug}}/rss/"><i class="fa fa-rss fa-2x" ></i>{{tag.name}}</a>
+    {{else}}
+        <a href="{{@blog.url}}/rss/"><i class="fa fa-rss fa-2x" ></i>Subscribe</a>
+    {{/if}}
+</nav>
