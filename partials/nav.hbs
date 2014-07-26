@@ -1,5 +1,5 @@
 <nav class="main-nav text-right">
-<!--Home link -- two conditions because hbs doesn't have ||-->
+    <!--Home link -- two conditions because hbs doesn't have ||-->
     {{#if post}}
         <a class="" href="{{@blog.url}}/">Home</a>
     {{/if}}
@@ -7,10 +7,14 @@
             <a class="" href="{{@blog.url}}/">Home</a>
     {{/if}}
 
-<!--RSS -->
+    <!--Add static pages here-->
+    <a href="{{@blog.url}}/about">About</a>
+
+    <!--RSS -->
     {{#if tag}}
         <a href="{{@blog.url}}/tag/{{tag.slug}}/rss/"><i class="fa fa-rss fa-2x" ></i>{{tag.name}}</a>
     {{else}}
         <a href="{{@blog.url}}/rss/"><i class="fa fa-rss fa-2x" ></i>Subscribe</a>
     {{/if}}
+
 </nav>
