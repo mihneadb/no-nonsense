@@ -113,3 +113,6 @@ html, body {
 
 #instantclick-bar {
   background: #00807a; }
+
+.columns {
+  float: none; }
