@@ -62,6 +62,14 @@
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/theme.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/instantclick.min.js"}}" data-no-instant></script>
+    <script data-no-instant>
+        InstantClick.on('change', function () {
+            console.log("sending");
+            ga('send', 'pageview', location.pathname + location.search);
+        });
+        InstantClick.init(100);
+    </script>
 
     {{! Google authorship }}
     <a class="hide" href="[profile_url]?rel=author">Google</a>

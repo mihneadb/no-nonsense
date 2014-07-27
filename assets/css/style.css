@@ -105,3 +105,6 @@ html, body {
   list-style-type: none;
   display: inline-block;
   margin-left: 2rem; }
+
+#instantclick-bar {
+  background: #00807a; }

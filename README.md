@@ -13,7 +13,7 @@ Fully featured, content-focused Ghost theme
 - [x] google authorship
 - [ ] minified assets
 - [x] fitvid for responsive video embeds
-- [ ] [instantclick](http://instantclick.io/) for fast loading
+- [x] [instantclick](http://instantclick.io/) for fast loading
 - [x] code syntax highlight (via [prism](http://prismjs.com/))
 - [x] social share buttons
 - [ ] search (via [ghosthunter](https://github.com/i11ume/ghostHunter))
