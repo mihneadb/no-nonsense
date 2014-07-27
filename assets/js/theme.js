@@ -1,1 +1,1 @@
-$(".post-content").fitVids();
+

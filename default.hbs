@@ -66,6 +66,10 @@
     <script data-no-instant>
         InstantClick.on('change', function () {
             ga('send', 'pageview', location.pathname + location.search);
+            Prism.highlightAll();
+            if ($('.post-content')) {
+                $('.post-content').fitVids();
+            }
         });
         InstantClick.init(100);
     </script>
