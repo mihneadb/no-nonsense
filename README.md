@@ -7,7 +7,7 @@ Fully featured, content-focused Ghost theme
 
 > This is a work in progress. Check tickboxes for status.
 
-- [ ] disqus support
+- [x] disqus support
 - [x] responsive
 - [ ] google analytics support
 - [ ] google authorship
