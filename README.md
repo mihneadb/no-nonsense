@@ -20,7 +20,8 @@ Fully featured, content-focused Ghost theme
 - [ ] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
 - [ ] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
 - [x] sass css for easy ways to customize the theme (i.e. change color scheme)
-- [x] fontawesome support 
+- [x] fontawesome support
+- [ ] logo support
 
 
 Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](http://typesome.golem.io/features-list/).
