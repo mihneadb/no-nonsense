@@ -14,3 +14,19 @@
 img.author-thumb {
   width: 2.5rem;
   border-radius: 50%; }
+
+.post-loop {
+  margin-top: 5rem; }
+  .post-loop .post {
+    border-bottom: 1px dashed #aaa;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin: 1rem auto; }
+    .post-loop .post .post-title {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: large;
+      margin-right: 0.5rem; }
+
+.pagination {
+  margin-top: 2rem; }
