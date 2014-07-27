@@ -55,3 +55,6 @@ print "hello, world"
 </blockquote>
 
 For more help, refer to the [prismjs website](http://prismjs.com).
+
+## Adding static pages to the navigation menu
+Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
