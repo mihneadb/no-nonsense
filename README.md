@@ -58,3 +58,7 @@ For more help, refer to the [prismjs website](http://prismjs.com).
 
 ## Adding static pages to the navigation menu
 Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
+
+## Twitter card
+Add your twitter handle in `default.hbs` on the `<meta property="twitter:site" content="@YOUR_TWITTER_HANDLE" />`.
+
