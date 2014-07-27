@@ -1,8 +1,9 @@
 $header-font-stack: 'Montserrat', Helvetica, Arial, sans-serif;
 $content-font-stack: 'Lora', 'Times New Roman', Times, serif;
-$post-loop-title-color: #000;
+$footer-height: 15rem;
 
 $primary-color: #00807a;
+$secondary-color: #303030;
 $body-color: #fefefe; // ghostwriter
 
 .post-content {
@@ -11,11 +12,6 @@ $body-color: #fefefe; // ghostwriter
 
 .post-meta {
   margin-top: 2rem;
-}
-
-.site-footer {
-  margin-top: 2rem;
-  padding: 2rem;
 }
 
 .blog-logo img {
@@ -45,7 +41,7 @@ img.author-thumb {
 }
 
 .pagination {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 h1, h2, h3, h4, h5, h6, .post-title {
@@ -86,4 +82,52 @@ blockquote {
   background-color: #fff;
   color: $primary-color;
   border: 1px solid $primary-color;
+}
+
+.main-nav {
+  margin-top: 0.5rem;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+
+    a {
+      font-size: large;
+    }
+  }
+}
+
+.site-footer {
+  background-color: $secondary-color;
+  color: #AAA; // ghost
+  height: $footer-height;
+  font-size: large;
+  margin-top: 2rem;
+  padding: 2rem;
+
+  .copyright {
+    margin-top: 4rem;
+    margin-bottom: 0.7rem;
+  }
+}
+
+// http://css-tricks.com/snippets/css/sticky-footer/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.content-wrapper {
+  min-height: 100%;
+  margin-bottom: -$footer-height;
+}
+
+.content-wrapper:after {
+  content: "";
+  display: block;
+  height: $footer-height;
 }

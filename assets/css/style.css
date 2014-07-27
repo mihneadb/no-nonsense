@@ -4,10 +4,6 @@
 .post-meta {
   margin-top: 2rem; }
 
-.site-footer {
-  margin-top: 2rem;
-  padding: 2rem; }
-
 .blog-logo img {
   width: 10rem; }
 
@@ -28,7 +24,7 @@ img.author-thumb {
       margin-right: 0.5rem; }
 
 .pagination {
-  margin-top: 2rem; }
+  margin-top: 3rem; }
 
 h1, h2, h3, h4, h5, h6, .post-title {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -61,3 +57,38 @@ blockquote {
   background-color: #fff;
   color: #00807a;
   border: 1px solid #00807a; }
+
+.main-nav {
+  margin-top: 0.5rem; }
+  .main-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.3rem 0.5rem; }
+    .main-nav li a {
+      font-size: large; }
+
+.site-footer {
+  background-color: #303030;
+  color: #AAA;
+  height: 15rem;
+  font-size: large;
+  margin-top: 2rem;
+  padding: 2rem; }
+  .site-footer .copyright {
+    margin-top: 4rem;
+    margin-bottom: 0.7rem; }
+
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+.content-wrapper {
+  min-height: 100%;
+  margin-bottom: -15rem; }
+
+.content-wrapper:after {
+  content: "";
+  display: block;
+  height: 15rem; }
