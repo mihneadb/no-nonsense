@@ -59,7 +59,8 @@ blockquote {
 
 .label {
   background-color: #00807a;
-  border: 1px solid #fefefe; }
+  border: 1px solid #fefefe;
+  font-size: 0.9rem; }
 
 .label:hover {
   background-color: #fff;
@@ -112,3 +113,6 @@ html, body {
 
 #instantclick-bar {
   background: #00807a; }
+
+.columns {
+  float: none; }
