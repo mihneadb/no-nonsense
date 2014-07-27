@@ -22,7 +22,7 @@ See it live on my [blog](http://www.mihneadb.net).
 - [ ] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
 - [x] fontawesome support
 - [ ] logo support
-- [ ] minified assets
+- [x] minified assets
 - [x] sass css for easy ways to customize the theme (i.e. change color scheme)
 - [x] easy to build - just `npm install` and `gulp watch`
 
