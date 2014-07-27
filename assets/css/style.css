@@ -24,9 +24,40 @@ img.author-thumb {
     margin: 1rem auto; }
     .post-loop .post .post-title {
       font-weight: bold;
-      text-transform: uppercase;
       font-size: large;
       margin-right: 0.5rem; }
 
 .pagination {
   margin-top: 2rem; }
+
+h1, h2, h3, h4, h5, h6, .post-title {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+body {
+  font-family: "Lora", "Times New Roman", Times, serif !important;
+  font-weight: 400;
+  background-color: #fefefe; }
+
+a {
+  color: #00807a; }
+
+code {
+  font-size: small; }
+
+pre {
+  margin-bottom: 1.3rem; }
+
+blockquote {
+  padding-top: 1.1rem;
+  padding-bottom: 0.1rem; }
+
+.label {
+  background-color: #00807a;
+  border: 1px solid #fefefe; }
+
+.label:hover {
+  background-color: #fff;
+  color: #00807a;
+  border: 1px solid #00807a; }

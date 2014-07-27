@@ -1,3 +1,10 @@
+$header-font-stack: 'Montserrat', Helvetica, Arial, sans-serif;
+$content-font-stack: 'Lora', 'Times New Roman', Times, serif;
+$post-loop-title-color: #000;
+
+$primary-color: #00807a;
+$body-color: #fefefe; // ghostwriter
+
 .post-content {
   margin-top: 4rem;
 }
@@ -31,7 +38,6 @@ img.author-thumb {
 
     .post-title {
       font-weight: bold;
-      text-transform: uppercase;
       font-size: large;
       margin-right: 0.5rem;
     }
@@ -40,4 +46,44 @@ img.author-thumb {
 
 .pagination {
   margin-top: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, .post-title {
+  font-family: $header-font-stack;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+body {
+  font-family: $content-font-stack !important;
+  font-weight: 400;
+  background-color: $body-color; // ghostwriter
+}
+
+a {
+  color: $primary-color;
+}
+
+code {
+  font-size: small;
+}
+
+pre {
+  margin-bottom: 1.3rem;
+}
+
+blockquote {
+  padding-top: 1.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.label {
+  background-color: $primary-color;
+  border: 1px solid $body-color;
+}
+
+.label:hover {
+  background-color: #fff;
+  color: $primary-color;
+  border: 1px solid $primary-color;
 }
