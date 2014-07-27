@@ -69,7 +69,8 @@ blockquote {
     display: inline-block;
     padding: 0.3rem 0.5rem; }
     .main-nav li a {
-      font-size: large; }
+      font-size: large;
+      text-transform: capitalize; }
 
 .site-footer {
   background-color: #303030;
