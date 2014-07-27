@@ -22,6 +22,7 @@ Fully featured, content-focused Ghost theme
 - [x] sass css for easy ways to customize the theme (i.e. change color scheme)
 - [x] fontawesome support
 - [ ] logo support
+- [x] easy to build - just `npm install` and `gulp watch`
 
 
 Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](http://typesome.golem.io/features-list/).
