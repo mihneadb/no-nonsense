@@ -5,11 +5,13 @@ var uglify = require('gulp-uglify');
 var del = require('del');
 var minifyCSS = require('gulp-minify-css');
 var streamqueue  = require('streamqueue');
+var sass = require('gulp-sass')
 
 
 var paths = {
     scripts: ['assets/js/**/*.js'],
-    css: ['assets/css/**/*.css']
+    css: ['assets/css/**/*.css'],
+    scss: ['assets/scss/**/*.scss']
 };
 
 // Not all tasks need to use streams
@@ -45,11 +47,18 @@ gulp.task('minify-css', function() {
         .pipe(gulp.dest('assets/build'));
 });
 
+gulp.task('sass', function () {
+    gulp.src(paths.scss)
+        .pipe(sass())
+        .pipe(gulp.dest('assets/css'));
+});
+
 // Rerun the task when a file changes
 gulp.task('watch', function() {
     gulp.watch(paths.scripts, ['scripts']);
+    gulp.watch(paths.scss, ['sass']);
     gulp.watch(paths.css, ['minify-css']);
 });
 
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['watch', 'scripts', 'minify-css']);
+gulp.task('default', ['watch', 'scripts', 'sass', 'minify-css']);
