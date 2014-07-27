@@ -9,7 +9,7 @@ Fully featured, content-focused Ghost theme
 
 - [x] disqus support
 - [x] responsive
-- [ ] google analytics support
+- [x] google analytics support
 - [ ] google authorship
 - [ ] minified assets
 - [x] fitvid for responsive video embeds
@@ -28,5 +28,6 @@ Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](h
 # Install instructions
 
 Add your Disqus shortname to `post.hbs` in the disqus section, on the line `var disqus_shortname = '';`.
+
 Add your Google Analytics ID to `default.hbs` in the `<head>` section, on the line `ga('create', 'YOUR_ID_HERE', 'auto');`.
 
