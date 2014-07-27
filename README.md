@@ -10,6 +10,7 @@ See it live on my [blog](http://www.mihneadb.net).
 > This is a work in progress. Check tickboxes for status.
 
 - [x] responsive
+- [x] proper typography (using google web fonts + fallbacks)
 - [x] fitvid for responsive video embeds
 - [x] [instantclick](http://instantclick.io/) for fast loading
 - [x] code syntax highlight (via [prism](http://prismjs.com/))
