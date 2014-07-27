@@ -12,14 +12,14 @@ Fully featured, content-focused Ghost theme
 - [ ] google analytics support
 - [ ] google authorship
 - [ ] minified assets
-- [ ] fitvid for responsive video embeds
+- [x] fitvid for responsive video embeds
 - [ ] [instantclick](http://instantclick.io/) for fast loading
 - [ ] code syntax highlight (via [prism](http://prismjs.com/))
-- [ ] social share buttons
+- [x] social share buttons
 - [ ] search (via [ghosthunter](https://github.com/i11ume/ghostHunter))
 - [ ] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
 - [ ] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
-- [ ] sass css for easy ways to customize the theme (i.e. change color scheme)
+- [x] sass css for easy ways to customize the theme (i.e. change color scheme)
 - [x] fontawesome support 
 
 
