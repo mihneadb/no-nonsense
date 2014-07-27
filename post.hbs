@@ -4,14 +4,14 @@
 
 <main class="content" role="main">
 
-    <article class="{{post_class}}" role="article">
+    <article class="{{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
     {{! Everything inside the #post tags pulls data from the post }}
     {{#post}}
 
         <header class="post-header">
-            <h1 class="post-title small-10 columns small-centered text-center">{{{title}}}</h1>
+            <h1 class="post-title small-10 columns small-centered text-center" itemprop="headline">{{{title}}}</h1>
             <section class="post-meta text-center">
-                <p>Published <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
+                <p>Published <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date format="DD MMMM YYYY"}}</time></p>
                 <p>
                     {{#foreach tags}}
                         <a class="label" href="/tag/{{slug}}">{{name}}</a>
@@ -20,7 +20,7 @@
             </section>
         </header>
 
-        <section class="post-content">
+        <section class="post-content" itemprop="articleBody">
             {{content}}
         </section>
 
