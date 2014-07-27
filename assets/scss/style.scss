@@ -12,7 +12,7 @@ $body-color: #fefefe; // ghostwriter
 }
 
 .post {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .post-meta {
@@ -136,4 +136,16 @@ html, body {
   content: "";
   display: block;
   height: $footer-height;
+}
+
+.share {
+  ul {
+    margin-top: 1rem;
+    margin-right: 1.8rem;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+  }
 }

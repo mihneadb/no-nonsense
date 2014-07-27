@@ -3,7 +3,7 @@
   margin-bottom: 4rem; }
 
 .post {
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
 
 .post-meta {
   margin-top: 2rem; }
@@ -97,3 +97,11 @@ html, body {
   content: "";
   display: block;
   height: 15rem; }
+
+.share ul {
+  margin-top: 1rem;
+  margin-right: 1.8rem; }
+.share li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 2rem; }
