@@ -33,7 +33,7 @@
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-43097310-1', 'auto');
-        ga('send', 'pageview');
+        ga('send', 'pageview', location.pathname + location.search);
     </script>
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -65,7 +65,6 @@
     <script type="text/javascript" src="{{asset "js/instantclick.min.js"}}" data-no-instant></script>
     <script data-no-instant>
         InstantClick.on('change', function () {
-            console.log("sending");
             ga('send', 'pageview', location.pathname + location.search);
         });
         InstantClick.init(100);
