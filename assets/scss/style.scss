@@ -13,6 +13,12 @@ $body-color: #fefefe; // ghostwriter
 
 .post {
   margin-bottom: 2rem;
+
+  img {
+    max-height: 35rem;
+    display: block;
+    margin: auto auto;
+  }
 }
 
 .post-meta {
