@@ -20,7 +20,7 @@ See it live on my [blog](http://www.mihneadb.net).
 - [x] google authorship
 - [ ] search (via [ghosthunter](https://github.com/i11ume/ghostHunter))
 - [x] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
-- [ ] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
+- [x] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
 - [x] fontawesome support
 - [ ] logo support
 - [x] minified assets
@@ -61,4 +61,5 @@ Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
 
 ## Twitter card
 Add your twitter handle in `default.hbs` on the `<meta property="twitter:site" content="@YOUR_TWITTER_HANDLE" />`.
+After that, apply to enable cards on your blog [here](https://dev.twitter.com/docs/cards/validation/validator).
 
