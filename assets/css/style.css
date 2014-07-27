@@ -4,6 +4,10 @@
 
 .post {
   margin-bottom: 2rem; }
+  .post img {
+    max-height: 35rem;
+    display: block;
+    margin: auto auto; }
 
 .post-meta {
   margin-top: 2rem; }
