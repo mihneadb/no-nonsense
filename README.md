@@ -9,21 +9,21 @@ See it live on my [blog](http://www.mihneadb.net).
 
 > This is a work in progress. Check tickboxes for status.
 
-- [x] disqus support
 - [x] responsive
-- [x] google analytics support
-- [x] google authorship
-- [ ] minified assets
 - [x] fitvid for responsive video embeds
 - [x] [instantclick](http://instantclick.io/) for fast loading
 - [x] code syntax highlight (via [prism](http://prismjs.com/))
 - [x] social share buttons
+- [x] disqus support
+- [x] google analytics support
+- [x] google authorship
 - [ ] search (via [ghosthunter](https://github.com/i11ume/ghostHunter))
 - [ ] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
 - [ ] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
-- [x] sass css for easy ways to customize the theme (i.e. change color scheme)
 - [x] fontawesome support
 - [ ] logo support
+- [ ] minified assets
+- [x] sass css for easy ways to customize the theme (i.e. change color scheme)
 - [x] easy to build - just `npm install` and `gulp watch`
 
 
