@@ -1,7 +1,9 @@
 no-nonsense
 ===========
 
-Fully featured, content-focused Ghost theme
+Fully featured, content-focused Ghost theme. Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](http://typesome.golem.io/features-list/).
+
+See it live on my [blog](http://www.mihneadb.net).
 
 # Features
 
@@ -25,7 +27,6 @@ Fully featured, content-focused Ghost theme
 - [x] easy to build - just `npm install` and `gulp watch`
 
 
-Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](http://typesome.golem.io/features-list/).
 
 # Install instructions
 
