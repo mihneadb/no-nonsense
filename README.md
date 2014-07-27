@@ -19,7 +19,7 @@ See it live on my [blog](http://www.mihneadb.net).
 - [x] google analytics support
 - [x] google authorship
 - [ ] search (via [ghosthunter](https://github.com/i11ume/ghostHunter))
-- [ ] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
+- [x] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
 - [ ] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
 - [x] fontawesome support
 - [ ] logo support
