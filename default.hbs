@@ -32,6 +32,17 @@
         ga('send', 'pageview', location.pathname + location.search);
     </script>
 
+    {{! Twitter card }}
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@YOUR_TWITTER_HANDLE" />
+    <meta property="twitter:title" content="{{meta_title}}" />
+    <meta property="twitter:description" content="{{meta_description}}" />
+
+    {{! Open Graph }}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
