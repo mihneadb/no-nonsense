@@ -1,4 +1,10 @@
 {
   "name": "no-nonsense",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "devDependencies": {
+    "del": "^0.1.1",
+    "gulp": "^3.8.6",
+    "gulp-concat": "^2.3.4",
+    "gulp-uglify": "^0.3.1"
+  }
 }

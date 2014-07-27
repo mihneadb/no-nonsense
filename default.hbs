@@ -18,7 +18,7 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    {{! Styles'n'Scripts }}
+    {{! Styles }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/foundation.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
@@ -59,10 +59,7 @@
     {{ghost_foot}}
 
     {{! JS }}
-    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/theme.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/instantclick.min.js"}}" data-no-instant></script>
+    <script type="text/javascript" src="{{asset "build/all.min.js"}}" data-no-instant></script>
     <script data-no-instant>
         InstantClick.on('change', function () {
             ga('send', 'pageview', location.pathname + location.search);
