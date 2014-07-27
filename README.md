@@ -14,7 +14,7 @@ Fully featured, content-focused Ghost theme
 - [ ] minified assets
 - [x] fitvid for responsive video embeds
 - [ ] [instantclick](http://instantclick.io/) for fast loading
-- [ ] code syntax highlight (via [prism](http://prismjs.com/))
+- [x] code syntax highlight (via [prism](http://prismjs.com/))
 - [x] social share buttons
 - [ ] search (via [ghosthunter](https://github.com/i11ume/ghostHunter))
 - [ ] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
@@ -36,3 +36,18 @@ Add your Google Analytics ID to `default.hbs` in the `<head>` section, on the li
 ## Google Authorship
 Add your Google+ ID to `default.hbs` on the line `<a class="hide" href="[profile_url]?rel=author">Google</a>` and
 follow the rest of instructions [here](https://support.google.com/webmasters/answer/1408986?expand=option2).
+
+## Code highlight
+Use blocks like this:
+
+<blockquote>
+<p>
+```language-python
+</p><p>
+print "hello, world"
+</p><p>
+```
+</p>
+</blockquote>
+
+For more help, refer to the [prismjs website](http://prismjs.com).
