@@ -24,3 +24,8 @@ Fully featured, content-focused Ghost theme
 
 
 Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](http://typesome.golem.io/features-list/).
+
+# Install instructions
+
+Add your Google Analytics ID to `default.hbs` in the `<head>` section, on the line `ga('create', 'YOUR_ID_HERE', 'auto');`.
+
