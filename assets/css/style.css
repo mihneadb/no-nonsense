@@ -1,5 +1,9 @@
 .post-content {
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.post {
+  margin-bottom: 4rem; }
 
 .post-meta {
   margin-top: 2rem; }

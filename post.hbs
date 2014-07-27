@@ -11,7 +11,7 @@
         <header class="post-header">
             <h1 class="post-title small-10 columns small-centered text-center">{{{title}}}</h1>
             <section class="post-meta text-center">
-                <p><time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
+                <p>Published <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
                 <p>
                     {{#foreach tags}}
                         <a class="label" href="/tag/{{slug}}">{{name}}</a>
