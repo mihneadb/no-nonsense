@@ -111,8 +111,8 @@ html, body {
   display: inline-block;
   margin-left: 2rem; }
 
-#instantclick-bar {
-  background: #00807a; }
+#instantclick {
+  display: none; }
 
 .columns {
   float: none; }
