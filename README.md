@@ -59,3 +59,11 @@ Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
 Add your twitter handle in `default.hbs` on the `<meta property="twitter:site" content="@YOUR_TWITTER_HANDLE" />`.
 After that, apply to enable *summary* cards on your blog [here](https://dev.twitter.com/docs/cards/validation/validator).
 
+
+# Screenshots
+
+## Index page
+![](http://data.mihneadb.net/no-nonsense/index.png)
+
+## Post
+![](http://data.mihneadb.net/no-nonsense/post.png)
