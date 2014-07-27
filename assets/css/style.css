@@ -35,12 +35,12 @@ img.author-thumb {
   margin-top: 3rem; }
 
 h1, h2, h3, h4, h5, h6, .post-title {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
 
 body {
-  font-family: "Lora", "Times New Roman", Times, serif !important;
+  font-family: 'Lora', 'Times New Roman', Times, serif !important;
   font-weight: 400;
   background-color: #fefefe; }
 
