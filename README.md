@@ -9,21 +9,21 @@ See it live on my [blog](http://www.mihneadb.net).
 
 > This is a work in progress. Check tickboxes for status.
 
-- [x] responsive
-- [x] proper typography (using google web fonts + fallbacks)
-- [x] fitvid for responsive video embeds
-- [x] [instantclick](http://instantclick.io/) for fast loading
-- [x] code syntax highlight (via [prism](http://prismjs.com/))
-- [x] social share buttons
-- [x] disqus support
-- [x] google analytics support
-- [x] google authorship
-- [x] linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
-- [x] semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
-- [x] fontawesome support
-- [x] minified assets
-- [x] sass css for easy ways to customize the theme (i.e. change color scheme)
-- [x] easy to build - just `npm install` and `gulp watch`
+- responsive
+- proper typography (using google web fonts + fallbacks)
+- fitvid for responsive video embeds
+- [instantclick](http://instantclick.io/) for fast loading
+- code syntax highlight (via [prism](http://prismjs.com/))
+- social share buttons
+- disqus support
+- google analytics support
+- google authorship
+- linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
+- semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
+- fontawesome support
+- minified assets
+- sass css for easy ways to customize the theme (i.e. change color scheme)
+- easy to build - just `npm install` and `gulp watch`
 
 
 
