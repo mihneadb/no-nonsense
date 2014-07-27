@@ -7,8 +7,6 @@ See it live on my [blog](http://www.mihneadb.net).
 
 # Features
 
-> This is a work in progress. Check tickboxes for status.
-
 - responsive
 - proper typography (using google web fonts + fallbacks)
 - fitvid for responsive video embeds
