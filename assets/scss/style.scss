@@ -163,3 +163,22 @@ html, body {
 .columns {
   float: none;
 }
+
+.related-posts-wrapper {
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: 0rem;
+
+    li {
+      margin-left: 1rem;
+      a {
+        text-transform: uppercase;
+        font-size: large;
+      }
+    }
+  }
+}
