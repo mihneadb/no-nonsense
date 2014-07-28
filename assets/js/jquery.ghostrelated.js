@@ -48,7 +48,7 @@
 
                 if (count == 0) {
                     $(that.element).append($('<p>No related posts were found. ' +
-                        'Check the <a class="lowercase" href="/">index</a>.</p>'));
+                        'Check the <a href="/">index</a>.</p>'));
                 }
             })
             .fail(function(e) {
