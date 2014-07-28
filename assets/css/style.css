@@ -126,3 +126,6 @@ html, body {
     .related-posts-wrapper ul li a {
       text-transform: uppercase;
       font-size: large; }
+
+section.comments {
+  margin-top: 2.5rem; }
