@@ -4,12 +4,12 @@
 
 {{#foreach posts}}
 
-<article class="{{post_class}}">
+<article class="{{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
     <p>
-        <span class="post-title"><a href="{{url}}">{{{title}}}</a></span>
+        <span class="post-title" itemprop="headline"><a href="{{url}}">{{{title}}}</a></span>
         <span class="post-date">
             published
-            <time class="post-date" datetime="{{date format='MMMM-Do-YYYY'}}">{{date format="MMMM Do YYYY"}}</time>
+            <time class="post-date" datetime="{{date format='MMMM-Do-YYYY'}}" itemprop="datePublished">{{date format="MMMM Do YYYY"}}</time>
         </span>
     </p>
 </article>
@@ -19,6 +19,6 @@
 </section>
 
 {{! Previous/next page links - displayed on every page }}
-<div class="pagination pagination-centered">
+<div class="pagination pagination-centered" role="navigation">
     {{pagination}}
 </div>
