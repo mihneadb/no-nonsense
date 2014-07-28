@@ -90,9 +90,12 @@
             Prism.highlightAll();
             if ($('.post-content')) {
                 $('.post-content').fitVids();
-                $('.related-posts').ghostRelated({
-                    limit: 6
-                });
+
+                if ($('.related-posts').children.length == 0) {
+                    $('.related-posts').ghostRelated({
+                        limit: 4
+                    });
+                }
             }
         });
         InstantClick.init(100);
