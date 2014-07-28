@@ -51,7 +51,8 @@ code {
   font-size: small; }
 
 pre {
-  margin-bottom: 1.3rem; }
+  margin-bottom: 1.3rem;
+  overflow: visible; }
 
 blockquote {
   padding-top: 1.1rem;
