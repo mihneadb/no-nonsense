@@ -7,7 +7,13 @@
 
     {{! Page Meta }}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
+    {{#if post}}
+        {{#post}}
+            <meta name="description" content="{{excerpt words=50}}" />
+        {{/post}}
+    {{else}}
+        <meta name="description" content="{{meta_description}}" />
+    {{/if}}
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,6 +37,29 @@
         ga('create', 'UA-43097310-1', 'auto');
         ga('send', 'pageview', location.pathname + location.search);
     </script>
+
+    {{! Twitter card }}
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@YOUR_TWITTER_HANDLE" />
+    <meta property="twitter:title" content="{{meta_title}}" />
+    {{#if post}}
+        {{#post}}
+            <meta property="twitter:description" content="{{excerpt characters=180}}" />
+        {{/post}}
+    {{else}}
+        <meta property="twitter:description" content="{{meta_description}}" />
+    {{/if}}
+
+    {{! Open Graph }}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{meta_title}}">
+    {{#if post}}
+        {{#post}}
+            <meta property="og:description" content="{{excerpt words=50}}">
+        {{/post}}
+    {{else}}
+        <meta property="og:description" content="{{meta_description}}">
+    {{/if}}
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
