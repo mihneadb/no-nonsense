@@ -21,10 +21,11 @@ gulp.task('clean', function(cb) {
     del(['assets/build'], cb);
 });
 
-gulp.task('scripts', ['clean'], function() {
+gulp.task('scripts', function() {
     // Minify and copy all JavaScript
     return streamqueue({objectMode: true},
         gulp.src('assets/js/jquery.fitvids.js'),
+        gulp.src('assets/js/jquery.ghostrelated.js'),
         gulp.src('assets/js/prism.js'),
         gulp.src('assets/js/instantclick.min.js'),
         gulp.src('assets/js/theme.js')

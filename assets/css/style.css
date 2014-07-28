@@ -115,3 +115,14 @@ html, body {
 
 .columns {
   float: none; }
+
+.related-posts-wrapper p {
+  margin-bottom: 0.5rem; }
+.related-posts-wrapper ul {
+  list-style-type: none;
+  margin-left: 0rem; }
+  .related-posts-wrapper ul li {
+    margin-left: 1rem; }
+    .related-posts-wrapper ul li a {
+      text-transform: uppercase;
+      font-size: large; }

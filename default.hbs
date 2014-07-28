@@ -35,7 +35,6 @@
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-43097310-1', 'auto');
-        ga('send', 'pageview', location.pathname + location.search);
     </script>
 
     {{! Twitter card }}
@@ -91,6 +90,9 @@
             Prism.highlightAll();
             if ($('.post-content')) {
                 $('.post-content').fitVids();
+                $('.related-posts').ghostRelated({
+                    limit: 6
+                });
             }
         });
         InstantClick.init(100);
