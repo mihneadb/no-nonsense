@@ -10,7 +10,6 @@ See it live on my [blog](http://www.mihneadb.net).
 - responsive
 - proper typography (using google web fonts + fallbacks)
 - fitvid for responsive video embeds
-- [instantclick](http://instantclick.io/) for fast loading
 - code syntax highlight (via [prism](http://prismjs.com/))
 - related posts list via [jquery.ghostrelated](https://github.com/danecando/jquery.ghostrelated)
 - social share buttons

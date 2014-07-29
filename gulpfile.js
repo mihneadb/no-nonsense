@@ -27,7 +27,6 @@ gulp.task('scripts', function() {
         gulp.src('assets/js/jquery.fitvids.js'),
         gulp.src('assets/js/jquery.ghostrelated.js'),
         gulp.src('assets/js/prism.js'),
-        gulp.src('assets/js/instantclick.min.js'),
         gulp.src('assets/js/theme.js')
     )
         .pipe(uglify())
