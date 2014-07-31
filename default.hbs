@@ -85,21 +85,6 @@
 
     {{! JS }}
     <script type="text/javascript" src="{{asset "build/all.min.js"}}"></script>
-    <script data-no-instant>
-        InstantClick.on('change', function () {
-            Prism.highlightAll();
-            if ($('.post-content')) {
-                $('.post-content').fitVids();
-
-                if ($('.related-posts').children.length == 0) {
-                    $('.related-posts').ghostRelated({
-                        limit: 4
-                    });
-                }
-            }
-        });
-        InstantClick.init(100);
-    </script>
 
     {{! Google authorship }}
     <a class="hide" href="https://plus.google.com/u/0/+MihneaDobrescuBalaur?rel=author">Google</a>
