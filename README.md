@@ -15,7 +15,6 @@ See it live on my [blog](http://www.mihneadb.net).
 - social share buttons
 - disqus support
 - google analytics support
-- google authorship
 - linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
 - semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
 - fontawesome support
