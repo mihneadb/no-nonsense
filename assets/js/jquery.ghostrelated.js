@@ -32,28 +32,28 @@
             url: this.options.feed,
             type: 'GET'
         })
-            .done(function(data) {
+        .done(function(data) {
 
-                // Success fetching feed, find related posts and output them
-                var posts = that.getPosts(data);
-                var related = that.matchByTag(that._currentPostTags, posts);
+            // Success fetching feed, find related posts and output them
+            var posts = that.getPosts(data);
+            var related = that.matchByTag(that._currentPostTags, posts);
 
-                var count = 0;
-                related.forEach(function(post) {
-                    if (count < that.options.limit) {
-                        $(that.element).append($('<li><a href="' + post.url + '">' + post.title + '</a></li>'));
-                    }
-                    count++;
-                });
-
-                if (count == 0) {
-                    $(that.element).append($('<p>No related posts were found. ' +
-                        'Check the <a href="/">index</a>.</p>'));
+            var count = 0;
+            related.forEach(function(post) {
+                if (count < that.options.limit) {
+                    $(that.element).append($('<li><a href="' + post.url + '">' + post.title + '</a></li>'));
                 }
-            })
-            .fail(function(e) {
-                that.reportError(e);
+                count++;
             });
+
+            if (count == 0) {
+                $(that.element).append($('<p>No related posts were found. ' +
+                    'Check the <a href="/">index</a>.</p>'));
+            }
+        })
+        .fail(function(e) {
+            that.reportError(e);
+        });
 
     };
 
