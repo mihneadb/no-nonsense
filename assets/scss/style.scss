@@ -6,9 +6,15 @@ $primary-color: #00807a;
 $secondary-color: #222;
 $body-color: #fefefe; // ghostwriter
 
+$content-font-size: 1.1rem;
+
 .post-content {
   margin-top: 4rem;
   margin-bottom: 4rem;
+
+  p {
+    font-size: $content-font-size;
+  }
 }
 
 .post {
@@ -19,6 +25,10 @@ $body-color: #fefefe; // ghostwriter
     display: block;
     margin: auto auto;
   }
+}
+
+.page-description {
+  font-size: $content-font-size;
 }
 
 .post-meta {

@@ -1,6 +1,8 @@
 .post-content {
   margin-top: 4rem;
   margin-bottom: 4rem; }
+  .post-content p {
+    font-size: 1.1rem; }
 
 .post {
   margin-bottom: 2rem; }
@@ -8,6 +10,9 @@
     max-height: 35rem;
     display: block;
     margin: auto auto; }
+
+.page-description {
+  font-size: 1.1rem; }
 
 .post-meta {
   margin-top: 2rem; }
