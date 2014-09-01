@@ -1,6 +1,6 @@
 /*!
  * @package jquery.ghostrelated
- * @version 0.1.1
+ * @version 0.2.0
  * @Copyright (C) 2014 Dane Grant (danecando@gmail.com)
  * @License MIT
  */
@@ -20,43 +20,61 @@
         this.element = element;
         this.options = $.extend({}, defaults, options);
 
-        this.displayRelated();
+        this.parseRss();
     };
 
-    RelatedPosts.prototype.displayRelated = function() {
+    RelatedPosts.prototype.displayRelated = function(posts) {
+
+        var self = this,
+            count = 0;
 
         this._currentPostTags = this.getCurrentPostTags(this.options.tagsClass);
 
-        var that = this;
+        var related = this.matchByTag(this._currentPostTags, posts);
+
+        related.forEach(function(post) {
+            if (count < self.options.limit) {
+                $(self.element).append($('<li><a href="' + post.url + '">' + post.title + '</a></li>'));
+            }
+            count++;
+        });
+
+        if (count == 0) {
+            $(this.element).append($('<p>No related posts were found. ' +
+                'Check the <a href="/">index</a>.</p>'));
+        }
+    
+    };
+
+    RelatedPosts.prototype.parseRss = function(pageNum, prevId, feeds) {
+
+        var page = pageNum || 1,
+            prevId = prevId || '',
+            feeds = feeds || [],
+            self = this;
+
         $.ajax({
-            url: this.options.feed,
+            url: this.options.feed + '/' + page,
             type: 'GET'
         })
-        .done(function(data) {
+        .done(function(data, textStatus, xhr) {
 
-            // Success fetching feed, find related posts and output them
-            var posts = that.getPosts(data);
-            var related = that.matchByTag(that._currentPostTags, posts);
+            var curId = $(data).find('item > guid').text();
 
-            var count = 0;
-            related.forEach(function(post) {
-                if (count < that.options.limit) {
-                    $(that.element).append($('<li><a href="' + post.url + '">' + post.title + '</a></li>'));
-                }
-                count++;
-            });
-
-            if (count == 0) {
-                $(that.element).append($('<p>No related posts were found. ' +
-                    'Check the <a href="/">index</a>.</p>'));
+            if (curId != prevId) {
+                feeds.push(data);
+                self.parseRss(page+1, curId, feeds);
+            } else {
+                var posts = self.getPosts(feeds);
+                self.displayRelated(posts);
             }
+
         })
         .fail(function(e) {
-            that.reportError(e);
+            self.reportError(e);
         });
 
     };
-
 
     RelatedPosts.prototype.getCurrentPostTitle = function(titleClass) {
 
@@ -93,14 +111,17 @@
     };
 
 
-    RelatedPosts.prototype.getPosts = function(feed) {
+    RelatedPosts.prototype.getPosts = function(feeds) {
 
-        var posts = [];
-        var items = $(feed).find('item');
+        var posts = [], items = [];
+
+        feeds.forEach(function(feed) {
+            items = $.merge(items, $(feed).find('item'));
+        });
 
         for (var i = 0; i < items.length; i++) {
 
-            var item = items.eq(i);
+            var item = $(items[i]);
 
             if (item.find('title').text() !== this.getCurrentPostTitle(this.options.titleClass)) {
 
