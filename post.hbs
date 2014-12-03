@@ -14,7 +14,7 @@
                 <p>Published <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date format="DD MMMM YYYY"}}</time></p>
                 <p>
                     {{#foreach tags}}
-                        <a class="label" href="/tag/{{slug}}">{{name}}</a>
+                        <a class="label" href="{{@blog.url}}/tag/{{slug}}">{{name}}</a>
                     {{/foreach}}
                 </p>
             </section>
