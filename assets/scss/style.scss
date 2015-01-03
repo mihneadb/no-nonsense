@@ -18,6 +18,14 @@ $content-font-size: 1.1rem;
   }
 }
 
+// a bit of padding for phones
+@media only screen and (max-device-width : 768px) {
+  .post-content {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+}
+
 .post {
   margin-bottom: 2rem;
 
