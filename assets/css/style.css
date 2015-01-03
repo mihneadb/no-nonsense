@@ -1,8 +1,13 @@
 .post-content {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   margin-bottom: 4rem; }
   .post-content p {
     font-size: 1.1rem; }
+
+@media only screen and (max-device-width: 768px) {
+  .post-content {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem; } }
 
 .post {
   margin-bottom: 2rem; }
@@ -66,7 +71,11 @@ blockquote {
 .label {
   background-color: #00807a;
   border: 1px solid #fefefe;
-  font-size: 0.9rem; }
+  font-size: 1.3rem; }
+
+@media only screen and (min-device-width: 768px) {
+  .label {
+    font-size: 0.9rem; } }
 
 .label:hover {
   background-color: #fff;
