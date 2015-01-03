@@ -5,7 +5,7 @@ Fully featured, content-focused Ghost theme. Inspired by [ghostwriter](https://g
 
 See it live on my [blog](http://www.mihneadb.net).
 
-# Features
+# Features (over vanilla Ghost)
 
 - responsive
 - proper typography (using google web fonts + fallbacks)
@@ -15,7 +15,6 @@ See it live on my [blog](http://www.mihneadb.net).
 - social share buttons
 - disqus support
 - google analytics support
-- linked social data support (twitter [cards](https://dev.twitter.com/docs/cards) and [opengraph](http://ogp.me/))
 - semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
 - fontawesome support
 - minified assets
@@ -49,10 +48,6 @@ For more help, refer to the [prismjs website](http://prismjs.com).
 
 ## Adding static pages to the navigation menu
 Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
-
-## Twitter cards
-Add your twitter handle in `default.hbs` on the `<meta property="twitter:site" content="@YOUR_TWITTER_HANDLE" />`.
-After that, apply to enable *summary* cards on your blog [here](https://dev.twitter.com/docs/cards/validation/validator).
 
 
 # Screenshots
