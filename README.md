@@ -8,6 +8,7 @@ See it live on my [blog](http://www.mihneadb.net).
 # Features (over vanilla Ghost)
 
 - responsive
+- post cover image
 - proper typography (using google web fonts + fallbacks)
 - fitvid for responsive video embeds
 - code syntax highlight (via [prism](http://prismjs.com/))
@@ -16,6 +17,7 @@ See it live on my [blog](http://www.mihneadb.net).
 - disqus support
 - google analytics support
 - semantic markup - [WAI-ARIA](http://www.w3.org/WAI/intro/aria) and [schema.org](http://www.schema.org/)
+- twitter cards / fb open graph annotations (via Ghost default behavior)
 - fontawesome support
 - minified assets
 - sass css for easy ways to customize the theme (i.e. change color scheme)
