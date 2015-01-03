@@ -66,7 +66,11 @@ blockquote {
 .label {
   background-color: #00807a;
   border: 1px solid #fefefe;
-  font-size: 0.9rem; }
+  font-size: 1.3rem; }
+
+@media only screen and (min-device-width: 768px) {
+  .label {
+    font-size: 0.9rem; } }
 
 .label:hover {
   background-color: #fff;

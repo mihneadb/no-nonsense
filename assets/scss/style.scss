@@ -99,7 +99,14 @@ blockquote {
 .label {
   background-color: $primary-color;
   border: 1px solid $body-color;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+}
+
+// smaller labels on non phones
+@media only screen and (min-device-width : 768px) {
+  .label {
+    font-size: 0.9rem;
+  }
 }
 
 .label:hover {
