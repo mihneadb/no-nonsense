@@ -4,7 +4,7 @@
     {{> "nav"}}
     <div class="main-header-title text-center">
         <h1 class="page-title">tag: {{tag.name}}</h1>
-        <p class="page-description">{{pagination.total}} posts</p>
+        <p class="page-description">{{plural pagination.total empty='No posts' singular='% post' plural='% posts'}}</p>
     </div>
 </header>
 
