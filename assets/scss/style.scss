@@ -1,18 +1,15 @@
 $header-font-stack: 'Montserrat', Helvetica, Arial, sans-serif;
 $content-font-stack: 'Lora', 'Times New Roman', Times, serif;
 $footer-height: 15rem;
-
 $primary-color: #00807a;
 $secondary-color: #222;
 $body-color: #fefefe; // ghostwriter
-
 $content-font-size: 1.1rem;
-
+$post-border: 1px dashed #aaa;
 
 .post-content {
   margin-top: 2.5rem;
   margin-bottom: 4rem;
-
   p {
     font-size: $content-font-size;
   }
@@ -57,7 +54,7 @@ img.author-thumb {
   margin-top: 5rem;
 
   .post {
-    border-bottom: 1px dashed #aaa;
+    border-bottom: $post-border;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
     margin: 1rem auto;
@@ -201,7 +198,7 @@ html, body {
     margin-left: 0rem;
 
     li {
-      margin-left: 0.5rem;
+      margin-left: 0.5rem; 
       a {
         text-transform: uppercase;
         font-size: large;
@@ -211,5 +208,51 @@ html, body {
 }
 
 section.comments {
-  margin-top: 2.5rem;
+  margin-top: 2.5rem; 
+}
+
+/* === All styles related to the author page, /author/author-name. === */
+$img-dimension: 20rem;
+
+.author-profile {
+    text-align: center; 
+    margin-bottom: -4rem;
+}
+
+/* head shot*/
+.author-image {
+    width: $img-dimension;
+    margin: 0 auto;
+}
+
+.author-image .img {
+    margin: 0 auto;
+    height: $img-dimension;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid $primary-color;
+}
+
+.author-image .img .hidden {
+    display: none;
+}
+
+/* 200 char blurb*/ 
+.author-bio {
+    color: #444;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-indent: 0;
+}
+
+
+/* site, location, post count. */
+.author-meta {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    /* for separating out the author from posts */
+    padding-bottom: 2rem;
+    border-bottom: $post-border;
 }
