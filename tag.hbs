@@ -4,14 +4,18 @@
     {{> "nav"}}
     <div class="main-header-title text-center">
         <h1 class="page-title">tag: {{tag.name}}</h1>
-        <p class="page-description">{{plural pagination.total empty='No posts' singular='% post' plural='% posts'}}</p>
+        <p class="page-description">
+            {{#if tag.description}}
+                {{tag.description}}
+            {{else}}
+                {{plural pagination.total empty='No posts' singular='% post' plural='% posts'}}
+            {{/if}}
+        </p>
     </div>
 </header>
 
 {{! The main content area on the homepage }}
 <main class="content" role="main">
-
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
-
 </main>
