@@ -40,6 +40,9 @@ gulp.task('minify-css', function() {
         gulp.src('assets/css/foundation.css'),
         gulp.src('assets/css/fontawesome.css'),
         gulp.src('assets/css/prism.css'),
+        gulp.src('assets/css/fontello.css'),
+        gulp.src('assets/css/fontello-codes.css'),
+        gulp.src('assets/css/fontello-embedded.css'),
         gulp.src('assets/css/style.css')
     )
         .pipe(minifyCSS())
