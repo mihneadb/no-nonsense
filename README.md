@@ -57,7 +57,7 @@ Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
 # Screenshots
 
 ## Index page
-![](http://data.mihneadb.net/no-nonsense/index.png)
+![index](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/index.png)
 
 ## Post
-![](http://data.mihneadb.net/no-nonsense/post.png)
+![post](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/post.png)
