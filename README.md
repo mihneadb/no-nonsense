@@ -5,10 +5,12 @@ Fully featured, content-focused Ghost theme. Inspired by [ghostwriter](https://g
 
 See it live on my [blog](http://www.mihneadb.net).
 
-# Features (over vanilla Ghost)
+# Features
 
+- multi author support
 - responsive
 - post cover image
+- tag page description
 - proper typography (using google web fonts + fallbacks)
 - fitvid for responsive video embeds
 - code syntax highlight (via [prism](http://prismjs.com/))
