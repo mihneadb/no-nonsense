@@ -1,11 +1,14 @@
 <nav class="main-nav text-right" role="navigation">
     <ul>
-    <!--Home link -- two conditions because hbs doesn't have ||-->
+    <!--Home link -- multiple conditions because hbs doesn't have "or".-->
     {{#if post}}
         <li><a class="" href="{{@blog.url}}/">Home</a></li>
     {{/if}}
     {{#if tag}}
-            <li><a class="" href="{{@blog.url}}/">Home</a></li>
+        <li><a class="" href="{{@blog.url}}/">Home</a></li>
+    {{/if}}
+    {{#if author}}
+        <li><a class="" href="{{@blog.url}}/">Home</a></li>
     {{/if}}
 
     <!--Add static pages here-->
