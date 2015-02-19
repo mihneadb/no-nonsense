@@ -61,3 +61,6 @@ Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
 
 ## Post
 ![post](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/post.png)
+
+## Author
+![author](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/author.png)
