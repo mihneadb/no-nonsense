@@ -145,5 +145,42 @@ html, body {
 section.comments {
   margin-top: 2.5rem; }
 
+/* === All styles related to the author page, /author/author-name. === */
+.author-profile {
+  text-align: center;
+  margin-bottom: -4rem; }
+
+/* head shot*/
+.author-image {
+  width: 20rem;
+  margin: 0 auto; }
+
+.author-image .img {
+  margin: 0 auto;
+  height: 20rem;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid #00807a; }
+
+.author-image .img .hidden {
+  display: none; }
+
+/* 200 char blurb*/
+.author-bio {
+  color: #444;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-indent: 0; }
+
+/* site, location, post count. */
+.author-meta {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  /* for separating out the author from posts */
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed #aaa; }
+
 .adsense-wrapper {
   margin-top: 2rem; }
