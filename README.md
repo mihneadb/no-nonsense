@@ -5,10 +5,12 @@ Fully featured, content-focused Ghost theme. Inspired by [ghostwriter](https://g
 
 See it live on my [blog](http://www.mihneadb.net).
 
-# Features (over vanilla Ghost)
+# Features
 
+- multi author support
 - responsive
 - post cover image
+- tag page description
 - proper typography (using google web fonts + fallbacks)
 - fitvid for responsive video embeds
 - code syntax highlight (via [prism](http://prismjs.com/))
@@ -55,7 +57,10 @@ Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
 # Screenshots
 
 ## Index page
-![](http://data.mihneadb.net/no-nonsense/index.png)
+![index](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/index.png)
 
 ## Post
-![](http://data.mihneadb.net/no-nonsense/post.png)
+![post](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/post.png)
+
+## Author
+![author](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/author.png)
