@@ -1,7 +1,9 @@
 {{!< default}}
 
 <header class="main-header">
-    {{> "nav"}}
+    
+    {{navigation}}
+    
     <div class="main-header-title text-center">
         <h1 class="page-title">tag: {{tag.name}}</h1>
         <p class="page-description">
@@ -18,4 +20,12 @@
 <main class="content" role="main">
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
+    
+    <script type="text/javascript">
+    	// Ridiculous hack to adjust tag RSS. Can't even use jquery, so have to do document ready callback. 
+    	document.addEventListener("DOMContentLoaded", function(event) { 
+			var url = "{{@blog.url}}/tag/{{tag.slug}}/rss/";
+			$('#rss-link').attr("href", url);
+		});	
+    </script>
 </main>
