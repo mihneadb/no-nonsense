@@ -1,5 +1,8 @@
+![Ghost Compatability](https://img.shields.io/badge/Compatible%20with%20Ghost-v0.5.10-brightgreen.svg)
+
 no-nonsense
 ===========
+
 
 Fully featured, content-focused Ghost theme. Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](http://typesome.golem.io/features-list/).
 
@@ -51,7 +54,8 @@ print "hello, world"
 For more help, refer to the [prismjs website](http://prismjs.com).
 
 ## Adding static pages to the navigation menu
-Add the corresponding links in `partials/nav.hbs`, near the `About` entry.
+
+Make sure you are on Ghost 0.5.9+, then go to Settings -> Navigation and add your links.
 
 
 # Screenshots
