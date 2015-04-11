@@ -14,6 +14,7 @@ See it live on my [blog](http://www.mihneadb.net).
 - responsive
 - post cover image
 - tag page description
+- custom error page
 - proper typography (using google web fonts + fallbacks)
 - fitvid for responsive video embeds
 - code syntax highlight (via [prism](http://prismjs.com/))
@@ -66,5 +67,8 @@ Make sure you are on Ghost 0.5.9+, then go to Settings -> Navigation and add you
 ## Post
 ![post](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/post.png)
 
-## Author
+## Author page
 ![author](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/author.png)
+
+## Error page
+![error](https://raw.githubusercontent.com/mihneadb/no-nonsense/master/screenshots/error.png)
