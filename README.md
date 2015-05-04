@@ -6,7 +6,7 @@ no-nonsense
 
 Fully featured, content-focused Ghost theme. Inspired by [ghostwriter](https://github.com/roryg/ghostwriter) and [typesome](http://typesome.golem.io/features-list/).
 
-See it live on my [blog](http://www.mihneadb.net).
+Scroll to the bottom for screenshots.
 
 # Features
 
