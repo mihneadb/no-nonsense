@@ -1,6 +1,4 @@
-![Ghost Compatability](https://img.shields.io/badge/Compatible%20with%20Ghost-v0.5.10-brightgreen.svg)
-
-no-nonsense
+Compatible with Ghost 1.0 and +
 ===========
 
 

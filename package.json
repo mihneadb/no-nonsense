@@ -1,6 +1,8 @@
 {
   "name": "no-nonsense",
-  "version": "0.2.2",
+  "version": "0.2.3",
+  "author": {"email": "mihnea@linux.com"},
+  "config": { "posts_per_page": 5},
   "devDependencies": {
     "del": "^0.1.1",
     "gulp": "^3.8.6",
